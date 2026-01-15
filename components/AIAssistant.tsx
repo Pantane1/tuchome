@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Send, Bot, User, Sparkles } from 'lucide-react';
-import { chatWithBusinessCoach } from '../services/geminiService';
+import { chatWithBusinessCoach } from '../services/geminiService.ts';
 
 interface Message {
   id: string;
@@ -68,7 +68,7 @@ const AIAssistant: React.FC = () => {
         </div>
         <div>
           <h2 className="text-2xl font-bold text-gray-800">Business AI Coach</h2>
-          <p className="text-gray-500 text-sm">Powered by Gemini 2.5 Flash</p>
+          <p className="text-gray-500 text-sm">Powered by Gemini 3 Flash</p>
         </div>
       </div>
 

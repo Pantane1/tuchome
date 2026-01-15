@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Plus, Search, Sparkles, Edit2, Trash2, X } from 'lucide-react';
-import { Product } from '../types';
-import { generateProductDescription } from '../services/geminiService';
+import { Product } from '../types.ts';
+import { generateProductDescription } from '../services/geminiService.ts';
 
 interface InventoryProps {
   products: Product[];

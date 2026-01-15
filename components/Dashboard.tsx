@@ -1,7 +1,7 @@
 import React from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { DollarSign, Package, ShoppingBag, TrendingUp } from 'lucide-react';
-import { SalesData } from '../types';
+import { SalesData } from '../types.ts';
 
 interface DashboardProps {
   data: SalesData[];

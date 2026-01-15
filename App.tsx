@@ -9,11 +9,11 @@ import {
   Bell,
   Search
 } from 'lucide-react';
-import { View, Product, Order, OrderStatus, SalesData } from './types';
-import Dashboard from './components/Dashboard';
-import Inventory from './components/Inventory';
-import OrderList from './components/OrderList';
-import AIAssistant from './components/AIAssistant';
+import { View, Product, Order, OrderStatus, SalesData } from './types.ts';
+import Dashboard from './components/Dashboard.tsx';
+import Inventory from './components/Inventory.tsx';
+import OrderList from './components/OrderList.tsx';
+import AIAssistant from './components/AIAssistant.tsx';
 
 // Mock Data
 const MOCK_SALES_DATA: SalesData[] = [
